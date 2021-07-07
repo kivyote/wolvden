@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+      /*  hello! I'm cat, #35127 on wolvden.
+          this code is *not* free-to-use.  */
+
+* { font-size: inherit; color: inherit; border: 0; outline: 0 } body { cursor: default }
+br, #footer, #sidebar, #header .breadcrumb-nav, .table .subheader, nav i, .form-row .card-img-top, .cat, .candles, .catcon { display: none!important }
+#main::after { content: "css by \14DA\160F\15E2 #35127"; margin-top: 1em; white-space: pre-wrap;  display: block; text-align: right; line-height: 1; }
+.table a, .alert-link, #header .navbar-status a { font-weight: inherit } .text-light, .text-success, .text-danger, a.text-dark, a.text-dark:focus, a.text-dark:hover, .text-dark { color: inherit!important }
+.text-muted, .breadcrumb-item.active, .breadcrumb-item+.breadcrumb-item:before, #header .navbar-main .nav-link .fa, .form-control, #header .navbar-main .nav-link, .table .bottom, .table tfoot td { color: inherit!important }
+.left.b, .right.text-right { width: 33% }
+.border-none td { width: auto!important } .boxrow a { white-space: nowrap }
+.table td, .table th { align-items: center; vertical-align: middle } #main .card, .card-body.pt-1.pb-1 { background: none }
+.striped td { padding: .3em } .featured-wolf b, .table br { display: block!important } .user_current_sc:after { content: " sc" } .user_current_gc:after { content: "gc" }
+td.row { margin: 0 } .mb-3, .my-3 { margin: 0 auto } .form-row .card.text-center { margin-top: 1rem } .mb-3, .my-3 { margin-bottom: 0!important }
+.note-toolbar .note-btn { background: inherit; color: inherit } .bottom { padding: 1em!important }
+.dropdown-menu, .btn { font-size: inherit } .small, small { font-size: 100% } h1 small { vertical-align: middle; font-size: 50% }
+.dropdown-toggle { background: none!important }
+.featured-wolf a { display: block } .featured-wolf a { border: 0!important }
+#main.col-lg-9 { max-width: 100%; flex: 1 } .form-row { align-items: center }
+.form-control { height: auto } .font-weight-bold { font-weight: 100!important; text-transform: lowercase }
+.featured-wolf form { display: none } .card.mb-3 { position: relative }
+.card-body.pt-1.pb-1 { position: absolute; bottom: 0; left: 0; padding: 0!important }
+#main { padding: 0; background: transparent; border: 0 }
+@media (max-width: 990px) { #header { background: transparent } }
+#header .navbar-main { background: transparent }
+.card-header b { font-weight: 100; text-transform: lowercase }
+table, .table { border: 0 } #main>.table, form>table, form>.table, .table.mt-3, .table-striped { border-radius: 0; overflow: hidden } .table th { background: transparent }
+.card-body.pt-1 { border: 0; margin-top: -1px } form .table-striped td { border: 0!important }
+.table-striped tbody tr:nth-of-type(odd) { background: transparent }
+h3.mb-0 { margin: 0!important }
+@media (min-width: 992px) { .navbar-expand-lg .navbar-nav, .navbar-expand-lg .navbar-collapse { justify-content: flex-end } }
+.mr-auto, .mx-auto { margin-right: 0!important }
+.form-control { padding: .375rem .75rem .375rem .375rem }
+#summernote-form { padding: 1em; background: var(--background) }
+.card-body { background: var(--background) }
+.striped td, #summernote-form td { background: transparent!important }
+.note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable { background-color: var(--background); color: inherit }
+.card-header { border: 0; padding: .2em; background: transparent; color: inherit }
+.col-xl-3.col-sm-7.text-center { padding: 1em }
+.dropdown-divider { border-top: 1px solid var(--border) }
+tr, hr { border-bottom: 1px solid var(--border) }
+.right.text-right { background: var(--background); border-left: 1px solid var(--border); text-align: center!important }
+.bs-tooltop-auto[x-placement^=bottom] .arrow:before, .bs-tooltip-bottom .arrow:before { border-bottom-color: var(--border) }
+.note-toolbar .note-btn { border-color: var(--border) }
+.tooltip-inner { color: inherit; background: var(--border) } .tooltip { font-family: inherit }
+#header .navbar-main .nav-link { font-size: inherit; text-transform: lowercase }
+.floatright a { font-size: 70%!important; color: inherit!important; background: none!important }
+.floatright a i { display: none }
+.nav-tabs { border: 0 }
+.note-statusbar { background: transparent!important; border-top: 0px solid var(--border) }
+.border, .border-bottom, .border-left, .border-right, .border-top { border-color: var(--border)!important }
+.dropdown-item { padding: .25rem 1rem }
+
+/* boxes */
+.boxrow { display: flex; margin: 0 -1em }
+.boxrow>div { flex: 1; padding: 2em; margin: 1em; max-height: 300px; overflow: auto }
+@media (max-width: 900px) { .boxrow { display: block } }
+.blank { background: transparent!important; border: 0px solid transparent!important }
+
+:root {
+  --background: #000;
+  --font: 'Josefin Slab', serif;
+  --border: #121212
+}
+
+.container>div { padding: 3rem; background: #000000c7; border: 0 }
+div.float-right.mt-2 { position: absolute; top: -2rem; left: -2rem; font-size: 0  }
+div.float-right.mt-2 i { font-size: 10px }
+
+body {
+    background-position: top center;
+    background-size: auto;
+    background-attachment: fixed;
+    background-image: url('https://i.imgur.com/8wfqX10.gif');
+    background-color: #000;
+    background-repeat: repeat;
+    font-family: 'Josefin Slab', serif; font-size: .95rem; color: #777 }
+
+.card>a img, .featured-wolf img, .user-tag, .float-left.mr-2, .rounded-bottom, .rounded-left, form table a img, .border-bottom, img.float-left.mr-2  {
+  border-radius: 20px!important; border: 0 double var(--border)!important }
+
+#header .navbar-main { background: transparent }
+#header .navbar-status {
+    color: inherit;
+    border-radius: 0 0 0 0;
+    background-color: #000;
+    border-top: 0 solid var(--border);
+    border-right: 0 solid var(--border);
+    border-left: 0 solid var(--border);
+    border-bottom: 0 double var(--border)
+}
+.dropdown-menu, option { background: var(--background); border: 0; }
+.dropdown-menu { border: 0 double var(--border) }
+.table td, .table .left, .boxrow>div { background: var(--background) }
+.table .bottom, .table tfoot td { color: inherit; background: var(--background) }
+
+.table, .boxrow>div, #summernote-form, .card.text-center>.card-body { border: 0 double var(--border) }
+
+/* scrollbar */
+::-webkit-scrollbar { width: 15px; background: #222 }
+::-webkit-scrollbar-thumb { background: var(--border); padding: 5px; border: 5px solid #222 }
+
+/* progress bars */
+.bg-success,
+.bg-warning,
+.bg-primary,
+.bg-danger,
+.bg-info    {  border-radius: 0!important; background: #191919!important }
+.progress   { border-radius: 0!important; background: #fff1!important; border-radius: 0; height: 8px!important; margin: 0 0 2px; border: 1px solid #222 }
+
+.form-row .card-img-top { display: none!important; }
+
+/* typography */
+.alert, .card-body, .col, .b, .left.b, .form-control, .custom-control-label, label, td:nth-of-type(3) { text-transform: lowercase }
+td:nth-of-type(3)::first-letter { text-transform: uppercase!important }
+
+h1, h2, h3, h4, h5, h6 { font-family: var(--font) }
+
+h1 {
+    top: 0;
+    right: 0;
+    font-size: 4rem;
+    line-height: 1!important;
+    font-variant: small-caps;
+    text-align: right;
+    color: #fff3;
+    font-weight: bold;
+}
+@media(max-width:1080px) { h1 { position: relative } }
+
+.table th, .pt-1.pb-1, th.top {
+    padding: 3rem!important;
+    font-size: .65rem!important;
+    color: #fff5;
+    font-family: var(--font);
+    font-weight: bold; letter-spacing: .5rem; text-transform: uppercase;
+    line-height: 1;
+    background-image: linear-gradient(45deg, #fff2, #0005);
+    z-index: 9;
+    position: relative;
+    border: 4px double var(--border)
+}
+
+.row { align-items: center!important }
+
+h2 {
+    margin: 0!important;
+    padding: 0;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 100;
+    color: inherit;
+    filter: opacity(.25);
+    text-transform: lowercase; font-style: italic;
+}
+
+h3 {
+    font-size: .7rem;
+    padding: 1rem;
+    line-height: 1;
+    font-family: inherit;
+    margin: 0 0 .25em!important;
+    background: var(--border);
+    color: inherit;
+    font-weight: bold;
+    letter-spacing: 1px; text-transform: uppercase;
+}
+
+h4, h5, h6 { font-size: 1.5rem }
+
+
+
+.form-control, .alert-info, .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark, .note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable, .custom-control-label:before
+{
+    color: inherit!important;
+    border-radius: 0;
+    font-size: inherit;
+    background: var(--background)!important;
+    border-color: var(--border)!important }
+
+.table th a { color: inherit!important }
+#main a, .alert-info .alert-link, .alert-primary .alert-link, .alert-secondary .alert-link, .alert-success .alert-link,
+.alert-warning .alert-link, .alert-danger .alert-link, .alert-light .alert-link, .alert-dark .alert-link
+{ background: transparent;  color: #fff; text-decoration: none; transition: .6s; border: 0; padding: .2em }
+#main a:hover, .table th a:hover
+{ background: transparent; color: #7c6090!important; border-color: transparent; text-decoration: none }
+
+.form-row a, .card.mb-3 a, .featured-wolf a { background: none!important }
+.featured-wolf br { display: none!important }
+
+.breadcrumb-item a, #header .navbar-main .nav-link
+{ color: #fff!important; transition: .6s; text-decoration: none }
+.breadcrumb-item a:hover, #header .navbar-main .nav-link:hover
+{ color: #7c6090!important; background: none }
+
+#header .navbar-status a
+{ color: #fff!important; transition: .6s; text-decoration: none; background: none; text-transform: lowercase }
+#header .navbar-status a:hover
+{ color: #7c6090!important }
+
+.btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark,
+.card-body.text-center.font-weight-bold.p-2,
+.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle
+{ font-family: var(--font); transition: .6s; background: transparent; color: #fff; text-transform: lowercase; box-shadow: none!important; border: 0; border-radius: 0 }
+
+.btn-info:active, .btn-primary:active, .btn-secondary:active, .btn-success:active, .btn-warning:active, .btn-danger:active, .btn-light:active, .btn-dark:active,
+.btn-info:hover, .btn-primary:hover, .btn-secondary:hover, .btn-success:hover, .btn-warning:hover, .btn-danger:hover, .btn-light:hover, .btn-dark:hover,
+.card-body.text-center.font-weight-bold.p-2:hover, button:active, button:hover
+{ background: transparent; color: #7c6090!important; border-color: inherit; outline: 0!important; box-shadow: none!important }
+
+
+/* fixes */
+.form-row .col-12.col-md-6.mb-2 br { display: block }
+#summernote-form td:nth-child(2) { width: 80% }
+.left.b.v-middle { width: 20% }
+
+.boxrow ul, .boxrow ol { padding: 0 0 0 1.5em }
+ol:last-of-type, ul:last-of-type { margin: 0 }
+.boxrow .btn-info { padding: .5em; display: block; margin: .5em 0 0; text-align: center }
+
+/* custom */
+.border-bottom, img.float-left.mr-2 { width: 100px }
+.bg-light, .btn-light { background: transparent!important; color: inherit; padding: .25em!important }
+.rounded-bottom, .rounded-left, .pl-3, .px-3 { padding: 0!important; display: inline-block }
+.d-block.text-wrap.pl-2.pr-2 { padding-top: .5em }
+.bg-dark, .bg-light { background: transparent!important }
+#main .p-0 { padding: .5em!important; min-width: 100px }
+.p-2 { padding: 0!important }
+td .card {height:100%!important}
+.form-row { align-items: stretch!important }
+
+.empty {     background: none!important;
+    padding: 0!important;
+    border: 0!important;
+    align-self: center;
+    text-align: center; }
+.hover { overflow: hidden; max-height: 80px!important; transition: 2s }
+.hover h2 { padding: 0 0 1em }
+.hover:hover { max-height: 350px!important; overflow: auto }
+
+.card-header { font-family: var(--font) }
+.note-toolbar.card-header .btn { font-size: 12px!important; padding: .25em }
+.navbar .btn { font-size: inherit!important }
+
+.badge {
+    font-size: inherit;
+    background: var(--border);
+    color: inherit;
+    font-weight: 100;
+}
+form>button { display: flex!important; align-items: center; margin: 0 auto; }
+
+.nav-tabs .nav-item a { margin-right: 1em; padding: 1em!important; border: 1px solid var(--border)!important }
+a.nav-link.active { background: var(--background)!important; border-color: var(--background)!important; color: inherit!important }
+
+
+.container>div { border-radius: 0!important }
